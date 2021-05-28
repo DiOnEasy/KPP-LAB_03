@@ -2,7 +2,7 @@
   <nav class="navbar navbar-light bg-faded">
     <router-link to="/" class="navbar-brand">
       <label>
-        Kanban Board
+        
         <span class="text-uppercase" v-show="this.activeBoard"> : {{ boardName }} </span>
       </label>
     </router-link>
